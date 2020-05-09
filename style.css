@@ -165,7 +165,7 @@ hr {
     font-size: 18px;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 600px) {
     
     .nav-main ul.nav-menu {
         display: block;
@@ -173,7 +173,7 @@ hr {
         top: 0;
         left: 0;
         background: #2f6340;
-        height: 80%;
+        height: 100%;
         transform: translatex(-500px);
         transition: transform .5s ease-in-out;
         padding: 30px;
