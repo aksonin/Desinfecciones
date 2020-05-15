@@ -59,6 +59,7 @@ ul {
     flex: 1; /* Pega el cont al lado izquierdo*/
     margin-left: 20px; /*Distancia desde el lado izquierdo */
     justify-content: space-between;
+    
 }
 
 .menu-btn {
@@ -96,10 +97,10 @@ hr {
 
 }*/
 /*Imagen de uso*/
-.desinfeccion ul{
+.desinfeccion {
     margin: 10px;
-    width: 70%;
-    height: 700px;
+    width: 90%;
+    height: 90%;
     padding-left: 30px;
 }
 
@@ -174,14 +175,22 @@ hr {
         left: 0;
         background: #2f6340;
         height: 100%;
-        transform: translatex(-500px);
+        transform: translatex(-20px);
         transition: transform .5s ease-in-out;
         padding: 30px;
         opacity: 0.9;
     }
 
+    .desinfeccion {
+        margin: 10px;
+        width: 90%;
+        height: 90%;
+        padding-left: 10px;
+    }
+    
+
     .nav-main ul.nav-menu.show { 
-        transform: translatex(-20px);
+        transform: translatex(-500px);
     }
 
     .nav-main ul.nav-menu li {
@@ -193,4 +202,22 @@ hr {
     .detalles {
         grid-template-columns: repeat(2, 1fr);
     }
+
+    .links i {
+        font-size: 2rem;
+    }
+
+    @media (max-width: 400px) {
+        .detalles {
+            grid-template-columns: repeat(1, 1fr);
+        }
+
+        .telefono {
+            font-size: 16px;
+            margin-top: 20px;
+
+        }
+    }
+
+    
 }
