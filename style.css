@@ -207,7 +207,7 @@ hr {
         font-size: 2rem;
     }
 
-    @media (max-width: 400px) {
+    @media (max-width: 450px) {
         .detalles {
             grid-template-columns: repeat(1, 1fr);
         }
